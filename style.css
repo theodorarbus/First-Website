@@ -1,0 +1,12 @@
+body {
+    background-color: #02020f ;
+    color: white;
+    font-family: Bebas Neue;
+}
+button{
+    font-family: Bebas Neue, sans-serif;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 3px 10px;
+    border: none;
+}
