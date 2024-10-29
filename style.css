@@ -4,9 +4,20 @@ body {
     font-family: Bebas Neue;
 }
 button{
+    background: #02020f;
+    color: #d1d1f4;
     font-family: Bebas Neue, sans-serif;
     font-size: 18px;
     border-radius: 50px;
     padding: 3px 10px;
-    border: none;
+    border: 2px solid #d1d1f4;
+    cursor: pointer;
+    transition: color 0.2;
+    transition: background-color 0.2s;
+    
+}
+button:hover{
+    
+    background: #d1d1f4;
+    color: #02020f;
 }
