@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: #02020f ;
     color: white;
     font-family: Bebas Neue;
@@ -20,4 +21,10 @@ button:hover{
     
     background: #d1d1f4;
     color: #02020f;
+}
+
+main{
+    border: 4px #fcd9d0;
+    display: flex;
+    justify-content: space-between;
 }
