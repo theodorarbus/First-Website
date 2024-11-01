@@ -15,7 +15,7 @@ button{
     cursor: pointer;
     transition: color 0.2;
     transition: background-color 0.2s;
-    
+
 }
 button:hover{
     
@@ -24,7 +24,41 @@ button:hover{
 }
 
 main{
-    border: 4px #fcd9d0;
+/*     background-color: #003815;
+ */ display: flex;
+    justify-content: space-around; /* Changed from space-between */
+    max-width: 1200px; /* Limit the max width of the main content */
+    margin: 0 auto; /* Center the main content */
+    padding: 20px; /* Add some padding */}
+
+main section{
+    flex: 1;
+    max-width: 350px;
+    margin: 20px;
+    border: 4px solid #d1d1f4;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ .latest-release iframe{
+width: 100%;
+aspect-ratio: 16 / 9;
+}
+
+.latest-release {
+    max-width: 500px;
+    flex: 1.5;
+}
+
+.produced-by-arbus {
+    max-width: 350px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.produced-by-arbus iframe{
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
 }
