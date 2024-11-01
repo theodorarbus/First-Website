@@ -4,6 +4,9 @@ body {
     color: white;
     font-family: Bebas Neue;
 }
+
+
+
 button{
     background: #02020f;
     color: #d1d1f4;
@@ -27,7 +30,9 @@ main{
 /*     background-color: #003815;
  */ display: flex;
     justify-content: space-around; /* Changed from space-between */
-    max-width: 1200px; /* Limit the max width of the main content */
+    max-width: 1200px;
+    height: 600px;
+    /* Limit the max width of the main content */
     margin: 0 auto; /* Center the main content */
     padding: 20px; /* Add some padding */}
 
@@ -60,5 +65,13 @@ aspect-ratio: 16 / 9;
 .produced-by-arbus iframe{
     width: 100%;
     height: 100%;
-    flex-grow: 1;
+}
+header{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+
+header img{
+    display: flex;
 }
