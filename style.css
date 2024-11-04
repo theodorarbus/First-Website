@@ -175,3 +175,7 @@ html, body {
 }
 
 
+.booking-form {
+    display: flex;
+    flex-direction: column;
+}
