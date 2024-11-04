@@ -7,7 +7,7 @@ body {
 
 
 
-.navbar button{
+button{
     background: #02020f;
     color: #d1d1f4;
     font-family: Bebas Neue, sans-serif;
@@ -32,7 +32,7 @@ main{
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
-    height: 600px;
+    height: auto;
     margin: 0 auto;
     padding: 20px;
     flex: 1;
@@ -53,8 +53,9 @@ main section{
  .main-content {
     display: flex;
     justify-content: space-around;
-    flex: 3;
+    flex: 2;
     padding-bottom: 60px;
+    height: auto;
  }
 
  .about {
@@ -154,3 +155,23 @@ html, body {
     font-family: Bebas Neue;
     cursor: pointer;
 }
+.img-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.buy-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+
+.samplepack-section {
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+
